@@ -11,8 +11,8 @@ const MoviesList = () => {
 
   const [newMovie, setNewMovie] = useState('');
   const [newGenre, setNewGenre] = useState('');
-  const [viewMode, setViewMode] = useState(true); // true for View, false for Edit
-  const [filterGenre, setFilterGenre] = useState('All'); // To toggle between showing all movies and specific genre
+  const [viewMode, setViewMode] = useState(true); 
+  const [filterGenre, setFilterGenre] = useState('All'); 
 
   const addMovie = () => {
     if (newMovie.trim() && newGenre.trim()) {

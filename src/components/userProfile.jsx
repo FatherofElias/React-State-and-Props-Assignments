@@ -23,8 +23,7 @@ class UserProfile extends Component {
   }
 
   handleHobbyChange(index, event) {
-    const newHobbies = this.state.hobbies.slice(); // Create a copy
-    newHobbies[index] = event.target.value;
+    const newHobbies = this.state.hobbies.slice(); 
     this.setState({ hobbies: newHobbies });
   }
 
