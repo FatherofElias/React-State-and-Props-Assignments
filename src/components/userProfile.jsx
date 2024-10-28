@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'; // Assignment 1
 
 class UserProfile extends Component {
   constructor(props) {
